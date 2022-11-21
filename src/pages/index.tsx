@@ -16,7 +16,13 @@ const Home: FC = () => {
 					<div className="flex content-center justify-center">
 						<div className="mb-5">
 							<a href={'/crown'}>
-								<Image src={VIP} alt="Picture of the author" width={90} height={90} />
+								<Image
+									src={VIP}
+									className="animate-pulse"
+									alt="Picture of the author"
+									width={90}
+									height={90}
+								/>
 							</a>
 						</div>
 					</div>
@@ -32,7 +38,6 @@ const Home: FC = () => {
 					<h1 className="text-3xl mt-5 font-bold font-Fondamento leading-relaxed tracking-normal text-[#2C2C2C] ">
 						An Ethereum contract on the blockchain, that will make you a King or Queen, might grant you
 						riches, & will immortalize your name.
-						<div className="mb-5 mt-3 italic"> Press the crown to get started. </div>
 					</h1>
 				</div>
 			</div>
