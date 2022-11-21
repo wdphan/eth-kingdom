@@ -11,7 +11,7 @@ const Home: FC = () => {
 			<div className="absolute top-6 right-6">
 				<ConnectWallet />
 			</div>
-			<div className="max-w-3xl mx-auto sm:px-6 lg:px-8 flex content-center justify-center mt-28 sm:mt-0 lg:mt-0 xl:mt-0">
+			<div className="max-w-3xl mx-auto sm:px-6 lg:px-8 flex content-center justify-center mt-44 sm:mt-0 lg:mt-0 xl:mt-0">
 				<div className="text-center pt-8">
 					<div className="flex content-center justify-center">
 						<div className="mb-5">
@@ -29,10 +29,10 @@ const Home: FC = () => {
 						</a>
 					</div>
 
-					<h1 className="text-4xl mt-5 font-bold font-Fondamento leading-relaxed tracking-normal text-[#2C2C2C] ">
+					<h1 className="text-3xl mt-5 font-bold font-Fondamento leading-relaxed tracking-normal text-[#2C2C2C] ">
 						An Ethereum contract on the blockchain, that will make you a King or Queen, might grant you
 						riches, & will immortalize your name.
-						<div className="mb-5"> Press the crown to get started. </div>
+						<div className="mb-5 mt-3 italic"> Press the crown to get started. </div>
 					</h1>
 				</div>
 			</div>

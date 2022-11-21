@@ -31,17 +31,6 @@ const Crown = () => {
 
 	const abi = KOE
 	const ContractAddress = '0xeF01B26ccD02FfA900CB5Cd34AE8f9CCFdF25502'
-	// to read contract
-
-	// retrieves the current king balance
-	// const { data: KingBalance } = useContractRead({
-	// 	address: ContractAddress,
-	// 	abi: KOE,
-	// 	functionName: 'balance',
-	// 	onSuccess(data) {
-	// 		console.log('King Balance', KingBalance)
-	// 	},
-	// })
 
 	// retrieves the current king address
 	const { data: KingAddress } = useContractRead({
@@ -149,7 +138,7 @@ const Crown = () => {
 				</div>
 			</div>
 			<div>
-				<div className=" flex items-center justify-center space-x-16 mt-[-4em] text-lg text-black">
+				<div className=" flex items-center justify-center space-x-8 mt-[-4em] text-lg text-black">
 					<form>
 						<button
 							className="border-2 border-black px-2 py-2 rounded-md bg-white text-2xl"
